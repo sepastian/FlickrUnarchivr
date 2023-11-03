@@ -28,7 +28,13 @@ data-download-2.zip
 data-download-3.zip
 
 # Restore albums into ./albums/.
-python3 ./restore.py
+$ python3 ./restore.py
+
+# List albums.
+$ ls ./albums/
+Album_A
+Album_B
+Album_C
 ```
 
 You will now find restored albums in the `./albums` folder.
